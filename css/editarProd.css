@@ -1,0 +1,53 @@
+
+form{
+    margin: auto;
+    width: 400px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+form input{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border-radius: 5px;
+    border: 1px solid #b31617;
+}
+form label{
+    width: 100%;
+    margin-bottom: 5px;
+}
+.precios{
+    width: 100%;
+    display: flex;
+}
+.precios label{
+    margin-left: 10px;
+}
+img{
+    justify-content: center;
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+}
+.enviar input{
+    background: #b31617;
+    color: white;
+    padding: 8px;
+}
+.enviar input:hover{
+    
+    background: #5a0e00e5;
+    color: white;
+    padding: 8px;
+}
+form select {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border-radius: 5px;
+    border: 1px solid #b31617; 
+}

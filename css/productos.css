@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.tienda{
+    font-size: 18px;
+    color: black;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    margin: 10px;
+    
+}
+.tienda img{
+    margin: 10px;
+    width: 250px;
+    height: 250px;
+}
+.tienda button{
+    border-radius: 7px;
+    margin:10px;
+    background:#b31617;
+    color: white;
+    padding: 5px;
+    width: 70%;
+    
+}
+.tienda button:hover{
+color: wheat;
+}

@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.login{
+    font-size: 25px;
+    display: flex;
+    right: -50%;
+}
+.error{
+    font-size: 25px;
+    
+    color :#b31617
+}
+.formulario{
+    left: 35%;
+    top: 5px;
+    width: 400px;
+    margin-top: 10px;
+    position: absolute;
+    display: none;
+}
+
+label{
+   display: none;
+}
+.formulario label{
+    display: none;
+}
+#error2{
+    text-align: center;
+    margin: 5px;
+    color: black;
+}
+.formulario form{   
+    margin: auto;
+    background: rgb(245, 245, 245);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.3);   
+}
+
+.formulario h1{
+    color: black;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.formulario input{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border-radius: 5px;
+    border: 1px solid #b31617;
+}
+
+.formulario button{
+    width: 100%;
+}
+.formulario a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+#unirme{
+    background:#b31617;
+    color: white;
+    padding: 8px;
+}
+#unirme:hover{
+    cursor: pointer;
+    background: rgba(125, 15, 16, 1);
+    border-radius: 5px;
+}
+.formulario h4{
+    color: black;
+    margin: 0;
+}
+.img input{
+    margin-top: 5px;
+    background: rgb(255, 255, 255);
+}
+.formulario select {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border-radius: 5px;
+    border: 1px solid #b31617;   
+}
+
+
+@media (max-width:480px){
+    .formulario{
+        left: 0;
+        width: 100%;
+    }
+
+}

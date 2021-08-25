@@ -1,0 +1,119 @@
+.adm{
+    position: absolute;
+    background: rgb(245, 245, 245);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 10px; 
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 10px;
+    top: 50px;
+    right:5px;
+    display: none;
+    color: black;
+}
+
+.avatar img {
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    border-radius: 50%;
+    border: 5px solid #b31617;
+}
+.nombre{
+    margin: 5px;
+}
+.cerrar {
+    position: absolute;
+    left: 180px;
+
+}
+.cerrar a{
+    right: 20px;
+    font-size: 15px;
+    margin: 0;
+}
+
+.adm a {
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: #b31617;
+    padding: 10px 20px;
+}
+.enlaces a{
+    width: 100%;
+    margin: 5px;
+    background: #b31617;
+    color:white;
+    padding: 6px;
+}
+.adm a:hover{
+    font-size: 16px;
+}
+.enlaces a:hover{
+    cursor: pointer;
+    background: #ad0101; 
+    font-size: 14px;
+}
+.admE{
+    left: 35%;
+    top: 5px;
+    width: 350px;
+    margin-top: 10px;
+    position: absolute;
+    display: none;
+    background: rgb(245, 245, 245);
+    color: black;
+
+}
+.admE form{
+    
+    background: rgb(245, 245, 245);
+    padding: 10px 20px;
+    box-sizing: border-box;
+
+    
+}
+.admE input{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border-radius: 5px;
+    border: 1px solid #b31617;
+}
+.actualizar input{
+    background: #b31617;
+    color: white;
+    padding: 8px;
+}
+.admE img{
+    text-align: center;
+}
+.admE h4{
+    margin-bottom: 10px;
+}
+.cerrarE {
+    position: absolute;
+    left: 315px;
+}
+.desactivar{
+    top: 10px;
+}
+
+
+
+
+@media (max-width:480px){
+    .adm{
+        left: 0;
+        width: 100%;
+    }
+    .enlaces{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}

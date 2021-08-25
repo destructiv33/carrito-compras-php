@@ -1,0 +1,53 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body, html {
+    height: 100%;
+    background-repeat: no-repeat;
+    background: white;
+    
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.ofertas a{
+    color: white;
+}
+h3{
+    font-size: 15px;
+}
+footer{
+    font-size: 18px;
+    background: #202020;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   justify-items: center;
+    height: 50px;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+footer a:hover{
+    color: rgb(218, 218, 218);
+    text-decoration: none;
+}
+footer h4{
+    color: white;
+    margin-right: 10px;
+}
+footer h5{
+    margin-right: 10px;
+}
+@media (max-width:480px){
+    footer{
+        height: 110px;
+    }
+}
+
+
